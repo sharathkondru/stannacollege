@@ -1,3 +1,16 @@
+create table public."RSVP" (
+  "Hall Ticket Number" bigint null,
+  "Surname (Family Name)" text null,
+  "First & Last Name (Preferred Name)" text null,
+  "Contact Number" bigint null,
+  "Email ID" text null,
+  "Which College Do You Belong To?" text null,
+  "Which Department Are You From?" text null,
+  "Date of Birth" text null,
+  "Created At" timestamp with time zone null
+) TABLESPACE pg_default;
+
+
 insert into
   "public"."RSVP" (
     "Hall Ticket Number",
